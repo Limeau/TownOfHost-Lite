@@ -1,10 +1,10 @@
 using HarmonyLib;
 using Hazel;
-using TownOfHost.Roles.Core;
-using TownOfHost.Roles.Core.Interfaces;
-using TownOfHost.Roles.Neutral;
+using TOHL.Roles.Core;
+using TOHL.Roles.Core.Interfaces;
+using TOHL.Roles.Neutral;
 
-namespace TownOfHost.Patches.ISystemType;
+namespace TOHL.Patches.ISystemType;
 
 [HarmonyPatch(typeof(HqHudSystemType), nameof(HqHudSystemType.UpdateSystem))]
 public static class HqHudSystemTypeUpdateSystemPatch

@@ -1,6 +1,6 @@
 using System;
 
-namespace TownOfHost
+namespace TOHL
 {
     public class NetRandomWrapper : IRandom
     {

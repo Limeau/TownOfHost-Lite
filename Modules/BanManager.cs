@@ -2,9 +2,9 @@ using System;
 using System.IO;
 using System.Text.RegularExpressions;
 using HarmonyLib;
-using TownOfHost.Attributes;
-using static TownOfHost.Translator;
-namespace TownOfHost
+using TOHL.Attributes;
+using static TOHL.Translator;
+namespace TOHL
 {
     public static class BanManager
     {

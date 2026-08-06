@@ -2,10 +2,10 @@ using System.Collections.Generic;
 using System.Linq;
 using AmongUs.GameOptions;
 
-using TownOfHost.Roles.Core;
-using TownOfHost.Roles.Core.Interfaces;
+using TOHL.Roles.Core;
+using TOHL.Roles.Core.Interfaces;
 
-namespace TownOfHost.Roles.Neutral;
+namespace TOHL.Roles.Neutral;
 public sealed class Egoist : RoleBase, ISidekickable, IKiller, ISchrodingerCatOwner
 {
     public static readonly SimpleRoleInfo RoleInfo =

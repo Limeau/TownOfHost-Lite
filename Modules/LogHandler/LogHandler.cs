@@ -1,6 +1,6 @@
 using System;
 
-namespace TownOfHost.Modules
+namespace TOHL.Modules
 {
     class LogHandler : ILogHandler
     {

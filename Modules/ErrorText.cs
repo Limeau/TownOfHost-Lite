@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using static TownOfHost.Translator;
+using static TOHL.Translator;
 
-namespace TownOfHost
+namespace TOHL
 {
     public class ErrorText : MonoBehaviour
     {

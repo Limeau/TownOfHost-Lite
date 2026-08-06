@@ -1,12 +1,12 @@
 using UnityEngine;
 using AmongUs.GameOptions;
 
-using TownOfHost.Roles.Core;
-using TownOfHost.Roles.Core.Interfaces;
-using TownOfHost.Roles.Neutral;
-using static TownOfHost.Translator;
+using TOHL.Roles.Core;
+using TOHL.Roles.Core.Interfaces;
+using TOHL.Roles.Neutral;
+using static TOHL.Translator;
 
-namespace TownOfHost.Roles.Impostor
+namespace TOHL.Roles.Impostor
 {
     public sealed class SerialKiller : RoleBase, IImpostor
     {

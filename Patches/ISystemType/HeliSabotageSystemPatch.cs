@@ -1,9 +1,9 @@
 using HarmonyLib;
 using Hazel;
-using TownOfHost.Roles.Core;
-using TownOfHost.Roles.Core.Interfaces;
+using TOHL.Roles.Core;
+using TOHL.Roles.Core.Interfaces;
 
-namespace TownOfHost.Patches.ISystemType;
+namespace TOHL.Patches.ISystemType;
 
 [HarmonyPatch(typeof(HeliSabotageSystem), nameof(HeliSabotageSystem.UpdateSystem))]
 public static class HeliSabotageSystemUpdateSystemPatch

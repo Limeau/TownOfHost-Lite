@@ -1,9 +1,9 @@
 using AmongUs.GameOptions;
 
-using TownOfHost.Roles.Core;
-using TownOfHost.Roles.Core.Interfaces;
+using TOHL.Roles.Core;
+using TOHL.Roles.Core.Interfaces;
 
-namespace TownOfHost.Roles.Crewmate;
+namespace TOHL.Roles.Crewmate;
 public sealed class Seer : RoleBase, IKillFlashSeeable
 {
     public static readonly SimpleRoleInfo RoleInfo =

@@ -7,11 +7,11 @@ using HarmonyLib;
 using Hazel;
 using UnityEngine;
 
-using TownOfHost.Roles.Core;
-using TownOfHost.Roles.Core.Interfaces;
-using TownOfHost.Roles.Neutral;
+using TOHL.Roles.Core;
+using TOHL.Roles.Core.Interfaces;
+using TOHL.Roles.Neutral;
 
-namespace TownOfHost
+namespace TOHL
 {
     [HarmonyPatch(typeof(LogicGameFlowNormal), nameof(LogicGameFlowNormal.CheckEndCriteria))]
     class GameEndChecker

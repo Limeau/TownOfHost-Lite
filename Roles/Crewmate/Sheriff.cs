@@ -4,12 +4,12 @@ using Hazel;
 using UnityEngine;
 using AmongUs.GameOptions;
 
-using TownOfHost.Roles.Core;
-using TownOfHost.Roles.Core.Interfaces;
-using TownOfHost.Roles.Neutral;
-using static TownOfHost.Translator;
+using TOHL.Roles.Core;
+using TOHL.Roles.Core.Interfaces;
+using TOHL.Roles.Neutral;
+using static TOHL.Translator;
 
-namespace TownOfHost.Roles.Crewmate;
+namespace TOHL.Roles.Crewmate;
 public sealed class Sheriff : RoleBase, IKiller, ISchrodingerCatOwner
 {
     public static readonly SimpleRoleInfo RoleInfo =

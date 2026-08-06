@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using AmongUs.GameOptions;
 
-using TownOfHost.Roles.Core;
-using static TownOfHost.Translator;
+using TOHL.Roles.Core;
+using static TOHL.Translator;
 
-namespace TownOfHost.Roles
+namespace TOHL.Roles
 {
     public static class RoleAssignManager
     {

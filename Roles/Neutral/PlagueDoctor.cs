@@ -5,12 +5,12 @@ using System.Text;
 using UnityEngine;
 using AmongUs.GameOptions;
 
-using TownOfHost.Roles.Core;
-using TownOfHost.Roles.Core.Interfaces;
-using static TownOfHost.Translator;
+using TOHL.Roles.Core;
+using TOHL.Roles.Core.Interfaces;
+using static TOHL.Translator;
 using Hazel;
 
-namespace TownOfHost.Roles.Neutral;
+namespace TOHL.Roles.Neutral;
 
 public sealed class PlagueDoctor : RoleBase, IKiller
 {

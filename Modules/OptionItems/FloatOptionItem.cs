@@ -1,7 +1,7 @@
 using System;
-using TownOfHost.Roles.Core;
+using TOHL.Roles.Core;
 
-namespace TownOfHost
+namespace TOHL
 {
     public class FloatOptionItem : OptionItem
     {

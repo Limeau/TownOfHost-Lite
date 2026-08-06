@@ -1,11 +1,11 @@
 using System;
 using UnityEngine;
 using AmongUs.GameOptions;
-using TownOfHost.Roles.Core.Descriptions;
+using TOHL.Roles.Core.Descriptions;
 
-using static TownOfHost.Options;
+using static TOHL.Options;
 
-namespace TownOfHost.Roles.Core;
+namespace TOHL.Roles.Core;
 
 public class SimpleRoleInfo
 {

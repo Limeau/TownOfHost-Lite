@@ -4,12 +4,12 @@ using HarmonyLib;
 using TMPro;
 using UnityEngine;
 
-using TownOfHost.Modules;
-using TownOfHost.Roles.Core;
-using TownOfHost.Templates;
-using static TownOfHost.Translator;
+using TOHL.Modules;
+using TOHL.Roles.Core;
+using TOHL.Templates;
+using static TOHL.Translator;
 
-namespace TownOfHost
+namespace TOHL
 {
     [HarmonyPatch]
     public static class CredentialsPatch
@@ -148,7 +148,7 @@ namespace TownOfHost
                 logoTransform.parent = rightpanel;
                 logoTransform.localPosition = new(0f, 0.15f, 1f);
                 logoTransform.localScale *= 1.2f;
-                TohLogo.sprite = Utils.LoadSprite("TownOfHost.Resources.TownOfHost-Logo.png", 300f);
+                TohLogo.sprite = Utils.LoadSprite("TOHL.Resources.TOHL-Logo.png", 300f);
             }
         }
         [HarmonyPatch(typeof(ModManager), nameof(ModManager.LateUpdate))]

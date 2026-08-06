@@ -7,13 +7,13 @@ using HarmonyLib;
 using Hazel;
 using UnityEngine;
 
-using TownOfHost.Modules;
-using TownOfHost.Roles;
-using TownOfHost.Roles.Core;
-using TownOfHost.Roles.Core.Interfaces;
-using TownOfHost.Roles.AddOns.Crewmate;
+using TOHL.Modules;
+using TOHL.Roles;
+using TOHL.Roles.Core;
+using TOHL.Roles.Core.Interfaces;
+using TOHL.Roles.AddOns.Crewmate;
 
-namespace TownOfHost
+namespace TOHL
 {
     [HarmonyPatch(typeof(PlayerControl), nameof(PlayerControl.CheckProtect))]
     class CheckProtectPatch

@@ -1,6 +1,6 @@
 using System.Text;
 
-namespace TownOfHost.Roles.Core.Descriptions;
+namespace TOHL.Roles.Core.Descriptions;
 
 public abstract class RoleDescription
 {

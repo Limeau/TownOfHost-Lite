@@ -3,12 +3,12 @@ using System.Text;
 using Hazel;
 
 using AmongUs.GameOptions;
-using TownOfHost.Roles.Core;
-using TownOfHost.Roles.Core.Interfaces;
-using static TownOfHost.Translator;
+using TOHL.Roles.Core;
+using TOHL.Roles.Core.Interfaces;
+using static TOHL.Translator;
 using System;
 
-namespace TownOfHost.Roles.Impostor
+namespace TOHL.Roles.Impostor
 {
     public sealed class Witch : RoleBase, IImpostor, IDoubleTrigger
     {

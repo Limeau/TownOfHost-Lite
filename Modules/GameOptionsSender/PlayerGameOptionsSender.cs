@@ -6,9 +6,9 @@ using Il2CppSystem.Linq;
 using InnerNet;
 using Mathf = UnityEngine.Mathf;
 
-using TownOfHost.Roles.Core;
+using TOHL.Roles.Core;
 
-namespace TownOfHost.Modules
+namespace TOHL.Modules
 {
     public class PlayerGameOptionsSender : GameOptionsSender
     {

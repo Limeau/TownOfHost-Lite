@@ -1,11 +1,11 @@
 using HarmonyLib;
 using Hazel;
-using TownOfHost.Roles.Core;
-using TownOfHost.Roles.Core.Interfaces;
-using TownOfHost.Roles.Neutral;
+using TOHL.Roles.Core;
+using TOHL.Roles.Core.Interfaces;
+using TOHL.Roles.Neutral;
 using UnityEngine;
 
-namespace TownOfHost.Patches.ISystemType;
+namespace TOHL.Patches.ISystemType;
 
 [HarmonyPatch(typeof(SwitchSystem), nameof(SwitchSystem.UpdateSystem))]
 public static class SwitchSystemUpdateSystemPatch

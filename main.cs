@@ -10,13 +10,13 @@ using HarmonyLib;
 using Il2CppInterop.Runtime.Injection;
 using UnityEngine;
 
-using TownOfHost.Attributes;
-using TownOfHost.Roles.Core;
-using TownOfHost.Modules;
+using TOHL.Attributes;
+using TOHL.Roles.Core;
+using TOHL.Modules;
 
-[assembly: AssemblyFileVersionAttribute(TownOfHost.Main.PluginVersion)]
-[assembly: AssemblyInformationalVersionAttribute(TownOfHost.Main.PluginVersion)]
-namespace TownOfHost
+[assembly: AssemblyFileVersionAttribute(TOHL.Main.PluginVersion)]
+[assembly: AssemblyInformationalVersionAttribute(TOHL.Main.PluginVersion)]
+namespace TOHL
 {
     [BepInPlugin(PluginGuid, "Town Of Host", PluginVersion)]
     [BepInIncompatibility("jp.ykundesu.supernewroles")]
@@ -50,7 +50,7 @@ namespace TownOfHost
 
         // ==========
         //Sorry for many Japanese comments.
-        public const string PluginGuid = "com.emptybottle.townofhost";
+        public const string PluginGuid = "com.emptybottle.TOHL";
         public const string PluginVersion = "5.1.14";
         // サポートされている最低のAmongUsバージョン
         public static readonly string LowestSupportedVersion = "2025.9.9";
@@ -156,14 +156,14 @@ namespace TownOfHost
             DebugKeyInput = Config.Bind("Authentication", "Debug Key", "");
             ShowResults = Config.Bind("Result", "Show Results", true);
 
-            Logger = BepInEx.Logging.Logger.CreateLogSource("TownOfHost");
-            TownOfHost.Logger.Enable();
-            TownOfHost.Logger.Disable("NotifyRoles");
-            TownOfHost.Logger.Disable("SendRPC");
-            TownOfHost.Logger.Disable("ReceiveRPC");
-            TownOfHost.Logger.Disable("SwitchSystem");
-            TownOfHost.Logger.Disable("CustomRpcSender");
-            //TownOfHost.Logger.isDetail = true;
+            Logger = BepInEx.Logging.Logger.CreateLogSource("TOHL");
+            TOHL.Logger.Enable();
+            TOHL.Logger.Disable("NotifyRoles");
+            TOHL.Logger.Disable("SendRPC");
+            TOHL.Logger.Disable("ReceiveRPC");
+            TOHL.Logger.Disable("SwitchSystem");
+            TOHL.Logger.Disable("CustomRpcSender");
+            //TOHL.Logger.isDetail = true;
 
             // 認証関連-初期化
             DebugKeyAuth = new HashAuth(DebugKeyHash, DebugKeySalt);
@@ -225,15 +225,15 @@ namespace TownOfHost
             }
             catch (ArgumentException ex)
             {
-                TownOfHost.Logger.Error("エラー:Dictionaryの値の重複を検出しました", "LoadDictionary");
-                TownOfHost.Logger.Exception(ex, "LoadDictionary");
+                TOHL.Logger.Error("エラー:Dictionaryの値の重複を検出しました", "LoadDictionary");
+                TOHL.Logger.Exception(ex, "LoadDictionary");
                 hasArgumentException = true;
                 ExceptionMessage = ex.Message;
                 ExceptionMessageIsShown = false;
             }
-            TownOfHost.Logger.Info($"{Application.version}", "AmongUs Version");
+            TOHL.Logger.Info($"{Application.version}", "AmongUs Version");
 
-            var handler = TownOfHost.Logger.Handler("GitVersion");
+            var handler = TOHL.Logger.Handler("GitVersion");
             handler.Info($"{nameof(ThisAssembly.Git.Branch)}: {ThisAssembly.Git.Branch}");
             handler.Info($"{nameof(ThisAssembly.Git.BaseTag)}: {ThisAssembly.Git.BaseTag}");
             handler.Info($"{nameof(ThisAssembly.Git.Commit)}: {ThisAssembly.Git.Commit}");

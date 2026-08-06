@@ -3,10 +3,10 @@ using AmongUs.GameOptions;
 using HarmonyLib;
 using Il2CppInterop.Runtime.InteropTypes.Arrays;
 
-using TownOfHost.Roles.Core;
-using TownOfHost.Roles.AddOns.Crewmate;
+using TOHL.Roles.Core;
+using TOHL.Roles.AddOns.Crewmate;
 
-namespace TownOfHost
+namespace TOHL
 {
     [HarmonyPatch(typeof(ShipStatus), nameof(ShipStatus.AddTasksFromList))]
     class AddTasksFromListPatch

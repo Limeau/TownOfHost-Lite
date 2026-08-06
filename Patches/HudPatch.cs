@@ -2,11 +2,11 @@ using System;
 using HarmonyLib;
 using UnityEngine;
 
-using TownOfHost.Roles.Core;
-using TownOfHost.Roles.Core.Interfaces;
-using static TownOfHost.Translator;
+using TOHL.Roles.Core;
+using TOHL.Roles.Core.Interfaces;
+using static TOHL.Translator;
 
-namespace TownOfHost
+namespace TOHL
 {
     [HarmonyPatch(typeof(HudManager), nameof(HudManager.Update))]
     class HudManagerPatch

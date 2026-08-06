@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using AmongUs.GameOptions;
 using Hazel;
-using TownOfHost.Modules;
-using TownOfHost.Roles.Core;
-using TownOfHost.Roles.Core.Interfaces;
+using TOHL.Modules;
+using TOHL.Roles.Core;
+using TOHL.Roles.Core.Interfaces;
 using UnityEngine;
 
-namespace TownOfHost.Roles.Impostor;
+namespace TOHL.Roles.Impostor;
 
 public sealed class EvilHacker : RoleBase, IImpostor, IKillFlashSeeable
 {

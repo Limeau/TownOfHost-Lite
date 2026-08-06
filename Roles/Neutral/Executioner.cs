@@ -3,10 +3,10 @@ using System.Linq;
 using Hazel;
 using AmongUs.GameOptions;
 
-using TownOfHost.Roles.Core;
-using TownOfHost.Roles.Core.Interfaces;
+using TOHL.Roles.Core;
+using TOHL.Roles.Core.Interfaces;
 
-namespace TownOfHost.Roles.Neutral;
+namespace TOHL.Roles.Neutral;
 public sealed class Executioner : RoleBase, IAdditionalWinner
 {
     public static readonly SimpleRoleInfo RoleInfo =

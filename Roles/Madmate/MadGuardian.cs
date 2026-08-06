@@ -1,10 +1,10 @@
 using AmongUs.GameOptions;
 
-using TownOfHost.Roles.Core;
-using TownOfHost.Roles.Core.Interfaces;
-using static TownOfHost.Options;
+using TOHL.Roles.Core;
+using TOHL.Roles.Core.Interfaces;
+using static TOHL.Options;
 
-namespace TownOfHost.Roles.Madmate;
+namespace TOHL.Roles.Madmate;
 public sealed class MadGuardian : RoleBase, IKillFlashSeeable
 {
     public static readonly SimpleRoleInfo RoleInfo =

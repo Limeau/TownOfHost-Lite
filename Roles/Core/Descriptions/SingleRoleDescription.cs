@@ -1,4 +1,4 @@
-namespace TownOfHost.Roles.Core.Descriptions;
+namespace TOHL.Roles.Core.Descriptions;
 
 /// <summary>
 /// Mod役職の説明文

@@ -12,17 +12,17 @@ using AmongUs.GameOptions;
 using Il2CppInterop.Runtime.InteropTypes;
 using UnityEngine;
 
-using TownOfHost.Modules;
-using TownOfHost.Roles;
-using TownOfHost.Roles.Core;
-using TownOfHost.Roles.Core.Interfaces;
-using TownOfHost.Roles.Impostor;
-using TownOfHost.Roles.AddOns.Common;
-using TownOfHost.Roles.AddOns.Impostor;
-using TownOfHost.Roles.AddOns.Crewmate;
-using static TownOfHost.Translator;
+using TOHL.Modules;
+using TOHL.Roles;
+using TOHL.Roles.Core;
+using TOHL.Roles.Core.Interfaces;
+using TOHL.Roles.Impostor;
+using TOHL.Roles.AddOns.Common;
+using TOHL.Roles.AddOns.Impostor;
+using TOHL.Roles.AddOns.Crewmate;
+using static TOHL.Translator;
 
-namespace TownOfHost
+namespace TOHL
 {
     public static class Utils
     {
@@ -760,7 +760,7 @@ namespace TownOfHost
             else
             {
                 if (AmongUsClient.Instance.IsGamePublic)
-                    name = $"<color={Main.ModColor}>TownOfHost v{Main.PluginVersion}</color>\r\n" + name;
+                    name = $"<color={Main.ModColor}>TOHL v{Main.PluginVersion}</color>\r\n" + name;
                 switch (Options.GetSuffixMode())
                 {
                     case SuffixModes.None:
@@ -1062,7 +1062,7 @@ namespace TownOfHost
         }
         public static DirectoryInfo GetLogFolder(bool auto = false)
         {
-            var folder = Directory.CreateDirectory($"{Application.persistentDataPath}/TownOfHost/Logs");
+            var folder = Directory.CreateDirectory($"{Application.persistentDataPath}/TOHL/Logs");
             if (auto)
             {
                 folder = Directory.CreateDirectory($"{folder.FullName}/AutoLogs");
@@ -1087,7 +1087,7 @@ namespace TownOfHost
         public static string CopyLog(string path)
         {
             string t = DateTime.Now.ToString("yyyy-MM-dd_HH.mm.ss");
-            string fileName = $"{path}/TownOfHost-v{Main.PluginVersion}-{t}.log";
+            string fileName = $"{path}/TOHL-v{Main.PluginVersion}-{t}.log";
             FileInfo file = new(@$"{Environment.CurrentDirectory}/BepInEx/LogOutput.log");
             var logFile = file.CopyTo(fileName);
             return logFile.FullName;

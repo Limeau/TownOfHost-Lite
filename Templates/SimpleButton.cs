@@ -3,7 +3,7 @@ using TMPro;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace TownOfHost.Templates;
+namespace TOHL.Templates;
 
 public class SimpleButton
 {

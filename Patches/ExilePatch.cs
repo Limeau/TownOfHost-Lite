@@ -1,10 +1,10 @@
 using AmongUs.Data;
 using HarmonyLib;
 
-using TownOfHost.Roles.Core;
-using TownOfHost.Roles.Neutral;
+using TOHL.Roles.Core;
+using TOHL.Roles.Neutral;
 
-namespace TownOfHost
+namespace TOHL
 {
     class ExileControllerWrapUpPatch
     {

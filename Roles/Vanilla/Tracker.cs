@@ -1,7 +1,7 @@
 using AmongUs.GameOptions;
-using TownOfHost.Roles.Core;
+using TOHL.Roles.Core;
 
-namespace TownOfHost.Roles.Vanilla;
+namespace TOHL.Roles.Vanilla;
 
 public sealed class Tracker : RoleBase
 {

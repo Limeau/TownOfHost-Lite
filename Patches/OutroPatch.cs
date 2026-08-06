@@ -6,12 +6,12 @@ using HarmonyLib;
 using TMPro;
 using UnityEngine;
 
-using TownOfHost.Modules;
-using TownOfHost.Roles.Core;
-using TownOfHost.Templates;
-using static TownOfHost.Translator;
+using TOHL.Modules;
+using TOHL.Roles.Core;
+using TOHL.Templates;
+using static TOHL.Translator;
 
-namespace TownOfHost
+namespace TOHL
 {
     [HarmonyPatch(typeof(AmongUsClient), nameof(AmongUsClient.OnGameEnd))]
     class EndGamePatch

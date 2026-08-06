@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Hazel;
 
-using TownOfHost.Attributes;
-using TownOfHost.Modules;
-using TownOfHost.Roles.Neutral;
+using TOHL.Attributes;
+using TOHL.Modules;
+using TOHL.Roles.Neutral;
 
-namespace TownOfHost
+namespace TOHL
 {
     public static class AntiBlackout
     {

@@ -1,8 +1,8 @@
 # Town Of Host
 
-[![TownOfHost-Title](./Images/TownOfHost-Title.png)](https://youtu.be/IGguGyq_F-c)
+[![TOHL-Title](./Images/TOHL-Title.png)](https://youtu.be/IGguGyq_F-c)
 
-<p align="center"><a href="https://github.com/tukasa0001/TownOfHost/releases/"><img src="https://badgen.net/github/release/tukasa0001/TownOfHost"></a></p>
+<p align="center"><a href="https://github.com/tukasa0001/TOHL/releases/"><img src="https://badgen.net/github/release/tukasa0001/TOHL"></a></p>
 
 この README は英語版です。<br>
 ! We are not good at English, so if you have difficulty in making out the translation, please translate the Japanese README into English. !<br>
@@ -11,15 +11,15 @@
 
 This mod is not affiliated with Among Us or Innersloth LLC, and the content contained therein is not endorsed or otherwise sponsored by Innersloth LLC. Portions of the materials contained herein are property of Innersloth LLC. © Innersloth LLC.
 
-[![Discord](./Images/TownOfHost-Discord.png)](https://discord.gg/W5ug6hXB9V)
+[![Discord](./Images/TOHL-Discord.png)](https://discord.gg/W5ug6hXB9V)
 
 ## Releases
 
 AmongUs Version: **17.0.0**
 
-**Latest Version: [Here](https://github.com/tukasa0001/TownOfHost/releases/latest)**
+**Latest Version: [Here](https://github.com/tukasa0001/TOHL/releases/latest)**
 
-Old Versions: [Here](https://github.com/tukasa0001/TownOfHost/releases)
+Old Versions: [Here](https://github.com/tukasa0001/TOHL/releases)
 
 ## Features
 
@@ -118,7 +118,7 @@ Also, you can break lines by writing `\n` in the sentence like `tag:line breaks 
 
 #### Special Tags
 There are special tags that can be sent automatically according to the scene.<br>
-For example: `welcome:This room is using TownOfHost.`
+For example: `welcome:This room is using TOHL.`
 
 | Tag            | Scene                             | Target                     |
 | -------------- | --------------------------------- | -------------------------- |
@@ -1501,7 +1501,7 @@ This mode limits the maximum number of meetings that can be called in total.<br>
 
 Turning on Streamer Mode enables this.
 
-You can rewrite the`Hide Game Code Name`in the config file (BepInEx\config\com.emptybottle.townofhost.cfg) to display any character you like as code mask.
+You can rewrite the`Hide Game Code Name`in the config file (BepInEx\config\com.emptybottle.TOHL.cfg) to display any character you like as code mask.
 You can also change the text color as you like by rewriting`Hide Game Code Color`.
 
 ## Force Japanese
@@ -1534,7 +1534,7 @@ Translated with https://www.deepl.com<br>
 ## Developers
 - [EmptyBottle](https://github.com/tukasa0001) ([Twitter](https://twitter.com/XenonBottle))
 - [Tanakarina](https://github.com/tanakanira0118) <!--([Twitter](https://twitter.com/))-->
-- [Shu-](https://github.com/shu-TownofHost) ([Twitter](https://twitter.com/Shu_kundayo))
+- [Shu-](https://github.com/shu-TOHL) ([Twitter](https://twitter.com/Shu_kundayo))
 - [kihi](https://github.com/Kihi1120) <!--([Twitter](https://twitter.com/))-->
 - [TAKU_GG](https://github.com/TAKUGG) ([Twitter](https://twitter.com/TAKUGGYouTube1), [Youtube](https://www.youtube.com/c/TAKUGG))
 - [Soukun](https://github.com/soukunsandesu) ([Twitter](https://twitter.com/Soukun_Dev), [Youtube](https://www.youtube.com/channel/UCsCOqxmXBVT-BD_UKaXpUPw))

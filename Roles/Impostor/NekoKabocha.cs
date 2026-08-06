@@ -1,9 +1,9 @@
 using AmongUs.GameOptions;
-using TownOfHost.Modules;
-using TownOfHost.Roles.Core;
-using TownOfHost.Roles.Core.Interfaces;
+using TOHL.Modules;
+using TOHL.Roles.Core;
+using TOHL.Roles.Core.Interfaces;
 
-namespace TownOfHost.Roles.Impostor;
+namespace TOHL.Roles.Impostor;
 
 public sealed class NekoKabocha : RoleBase, IImpostor, INekomata
 {

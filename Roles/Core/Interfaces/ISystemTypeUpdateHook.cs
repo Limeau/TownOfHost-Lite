@@ -1,4 +1,4 @@
-namespace TownOfHost.Roles.Core.Interfaces;
+namespace TOHL.Roles.Core.Interfaces;
 
 /// <summary>
 /// サボタージュに対する関与へのパッチ

@@ -1,6 +1,6 @@
 using HarmonyLib;
 
-namespace TownOfHost
+namespace TOHL
 {
     [HarmonyPatch(typeof(GameData), nameof(GameData.RecomputeTaskCounts))]
     class CustomTaskCountsPatch

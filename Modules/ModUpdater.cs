@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 using HarmonyLib;
 using Newtonsoft.Json.Linq;
 using UnityEngine;
-using static TownOfHost.Translator;
+using static TOHL.Translator;
 
-namespace TownOfHost
+namespace TOHL
 {
     [HarmonyPatch]
     public class ModUpdater
     {
-        private static readonly string URL = "https://api.github.com/repos/tukasa0001/TownOfHost";
+        private static readonly string URL = "https://api.github.com/repos/tukasa0001/TOHL";
         public static bool hasUpdate = false;
         public static bool isBroken = false;
         public static bool isChecked = false;
@@ -45,7 +45,7 @@ namespace TownOfHost
                 string result;
                 using (HttpClient client = new())
                 {
-                    client.DefaultRequestHeaders.Add("User-Agent", "TownOfHost Updater");
+                    client.DefaultRequestHeaders.Add("User-Agent", "TOHL Updater");
                     using var response = await client.GetAsync(new Uri(url), HttpCompletionOption.ResponseContentRead);
                     if (!response.IsSuccessStatusCode || response.Content == null)
                     {
@@ -68,17 +68,17 @@ namespace TownOfHost
                     JArray assets = data["assets"].Cast<JArray>();
                     for (int i = 0; i < assets.Count; i++)
                     {
-                        if (assets[i]["name"].ToString() == "TownOfHost_Steam.dll" && Constants.GetPlatformType() == Platforms.StandaloneSteamPC)
+                        if (assets[i]["name"].ToString() == "TOHL_Steam.dll" && Constants.GetPlatformType() == Platforms.StandaloneSteamPC)
                         {
                             downloadUrl = assets[i]["browser_download_url"].ToString();
                             break;
                         }
-                        if (assets[i]["name"].ToString() == "TownOfHost_Epic.dll" && Constants.GetPlatformType() == Platforms.StandaloneEpicPC)
+                        if (assets[i]["name"].ToString() == "TOHL_Epic.dll" && Constants.GetPlatformType() == Platforms.StandaloneEpicPC)
                         {
                             downloadUrl = assets[i]["browser_download_url"].ToString();
                             break;
                         }
-                        if (assets[i]["name"].ToString() == "TownOfHost.dll")
+                        if (assets[i]["name"].ToString() == "TOHL.dll")
                             downloadUrl = assets[i]["browser_download_url"].ToString();
                     }
                     hasUpdate = latestVersion.CompareTo(Main.version) > 0;
@@ -149,7 +149,7 @@ namespace TownOfHost
                 {
                     using var content = response.Content;
                     using var stream = content.ReadAsStream();
-                    using var file = new FileStream("BepInEx/plugins/TownOfHost.dll", FileMode.Create, FileAccess.Write);
+                    using var file = new FileStream("BepInEx/plugins/TOHL.dll", FileMode.Create, FileAccess.Write);
                     stream.CopyTo(file);
                     ShowPopup(GetString("updateRestart"), true);
                     return true;
@@ -179,7 +179,7 @@ namespace TownOfHost
                     button.GetComponent<PassiveButton>().OnClick = new();
                     button.GetComponent<PassiveButton>().OnClick.AddListener((Action)(() =>
                     {
-                        Application.OpenURL("https://github.com/tukasa0001/TownOfHost/releases/latest");
+                        Application.OpenURL("https://github.com/tukasa0001/TOHL/releases/latest");
                         Application.Quit();
                     }));
                 }

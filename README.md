@@ -1,25 +1,25 @@
 # Town Of Host
 
-[English](https://github.com/tukasa0001/TownOfHost/blob/main/README-EN.md)
+[English](https://github.com/tukasa0001/TOHL/blob/main/README-EN.md)
 
-[![TownOfHost-Title](./Images/TownOfHost-Title.png)](https://youtu.be/IGguGyq_F-c)
+[![TOHL-Title](./Images/TOHL-Title.png)](https://youtu.be/IGguGyq_F-c)
 
-<p align="center"><a href="https://github.com/tukasa0001/TownOfHost/releases/"><img src="https://badgen.net/github/release/tukasa0001/TownOfHost"></a></p>
+<p align="center"><a href="https://github.com/tukasa0001/TOHL/releases/"><img src="https://badgen.net/github/release/tukasa0001/TOHL"></a></p>
 
 ## この Mod について
 
 この Mod は非公式のものであり、この Mod の開発に関して Among Us の開発元である"Innersloth"は一切関与していません。<br>
 この Mod の問題などに関して公式に問い合わせないでください。<br>
 
-[![Discord](./Images/TownOfHost-Discord.png)](https://discord.gg/W5ug6hXB9V)
+[![Discord](./Images/TOHL-Discord.png)](https://discord.gg/W5ug6hXB9V)
 
 ## リリース
 
 AmongUsバージョン : **17.0.0**
 
-**最新版は[こちら](https://github.com/tukasa0001/TownOfHost/releases/latest)**
+**最新版は[こちら](https://github.com/tukasa0001/TOHL/releases/latest)**
 
-過去バージョンは[こちら](https://github.com/tukasa0001/TownOfHost/releases)
+過去バージョンは[こちら](https://github.com/tukasa0001/TOHL/releases)
 
 ## 特徴
 
@@ -118,7 +118,7 @@ AmongUsバージョン : **17.0.0**
 
 #### 特殊タグ
 シーンに合わせて自動で送信させることができる特殊タグが存在します。<br>
-例: `welcome:この部屋はTownOfHostを使用しています。`
+例: `welcome:この部屋はTOHLを使用しています。`
 
 | タグ           | シーン           | 対象               |
 | -------------- | ---------------- | ------------------ |
@@ -1471,7 +1471,7 @@ Polus や The Airship のドアを開けるとその部屋の全てのドアが�
 
 配信者モードをオンにすることで有効になります。
 
-コンフィグファイル(BepInEx\config\com.emptybottle.townofhost.cfg)の`Hide Game Code Name`を書き換えることによって、コード隠しとして好きな文字を表示させることができます。
+コンフィグファイル(BepInEx\config\com.emptybottle.TOHL.cfg)の`Hide Game Code Name`を書き換えることによって、コード隠しとして好きな文字を表示させることができます。
 また、`Hide Game Code Color`を書き換えることによって文字の色も好きなように変更できます。
 
 ## Force Japanese/強制日本語化
@@ -1509,7 +1509,7 @@ Mersenne Twister: Copyright (c) 2015 vpmedia [MIT License](https://raw.githubuse
 -->
 - [空き瓶/EmptyBottle](https://github.com/tukasa0001) ([Twitter](https://twitter.com/XenonBottle))
 - [Tanakarina](https://github.com/tanakanira0118) <!--([Twitter](https://twitter.com/))-->
-- [しゅー](https://github.com/shu-TownofHost) ([Twitter](https://twitter.com/Shu_kundayo))
+- [しゅー](https://github.com/shu-TOHL) ([Twitter](https://twitter.com/Shu_kundayo))
 - [kihi](https://github.com/Kihi1120) <!--([Twitter](https://twitter.com/))-->
 - [TAKU_GG](https://github.com/TAKUGG) ([Twitter](https://twitter.com/TAKUGGYouTube1), [Youtube](https://www.youtube.com/c/TAKUGG))
 - [そうくん](https://github.com/soukunsandesu) ([Twitter](https://twitter.com/Soukun_Dev), [Youtube](https://www.youtube.com/channel/UCsCOqxmXBVT-BD_UKaXpUPw))

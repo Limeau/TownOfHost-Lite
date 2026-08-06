@@ -1,8 +1,8 @@
 using HarmonyLib;
 
-using TownOfHost.Modules.ClientOptions;
+using TOHL.Modules.ClientOptions;
 
-namespace TownOfHost
+namespace TOHL
 {
     [HarmonyPatch(typeof(OptionsMenuBehaviour), nameof(OptionsMenuBehaviour.Start))]
     public static class OptionsMenuBehaviourStartPatch

@@ -2,12 +2,12 @@ using System.Globalization;
 using HarmonyLib;
 using InnerNet;
 using UnityEngine;
-using TownOfHost.Modules;
-using static TownOfHost.Translator;
+using TOHL.Modules;
+using static TOHL.Translator;
 using Hazel;
 using System.Collections.Generic;
 
-namespace TownOfHost
+namespace TOHL
 {
     [HarmonyPatch(typeof(GameStartManager), nameof(GameStartManager.MakePublic))]
     class MakePublicPatch

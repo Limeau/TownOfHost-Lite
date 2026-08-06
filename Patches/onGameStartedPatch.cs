@@ -5,14 +5,14 @@ using AmongUs.GameOptions;
 using HarmonyLib;
 using Hazel;
 
-using TownOfHost.Attributes;
-using TownOfHost.Modules;
-using TownOfHost.Roles;
-using TownOfHost.Roles.Core;
-using TownOfHost.Roles.AddOns.Common;
-using static TownOfHost.Translator;
+using TOHL.Attributes;
+using TOHL.Modules;
+using TOHL.Roles;
+using TOHL.Roles.Core;
+using TOHL.Roles.AddOns.Common;
+using static TOHL.Translator;
 
-namespace TownOfHost
+namespace TOHL
 {
     [HarmonyPatch(typeof(AmongUsClient), nameof(AmongUsClient.CoStartGame))]
     class ChangeRoleSettings

@@ -5,14 +5,14 @@ using System.Text;
 using HarmonyLib;
 using UnityEngine;
 
-using TownOfHost.Modules;
-using TownOfHost.Roles;
-using TownOfHost.Roles.Core;
-using TownOfHost.Roles.Neutral;
-using TownOfHost.Roles.Core.Interfaces;
-using static TownOfHost.Translator;
+using TOHL.Modules;
+using TOHL.Roles;
+using TOHL.Roles.Core;
+using TOHL.Roles.Neutral;
+using TOHL.Roles.Core.Interfaces;
+using static TOHL.Translator;
 
-namespace TownOfHost;
+namespace TOHL;
 
 [HarmonyPatch]
 public static class MeetingHudPatch

@@ -1,6 +1,6 @@
 using AmongUs.GameOptions;
 
-namespace TownOfHost.Modules
+namespace TOHL.Modules
 {
     public class NormalGameOptionsSender : GameOptionsSender
     {
